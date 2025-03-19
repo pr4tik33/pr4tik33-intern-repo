@@ -4,8 +4,8 @@ services:
     image: postgres:14.1-alpine
     restart: always
     environment:
-      - POSTGRES_USER=postgres        # Username for your postgres datbase
-      - POSTGRES_PASSWORD=postgres    # Password for your postgres user
+      - POSTGRES_USER=postgres        
+      - POSTGRES_PASSWORD=    #fill in your password
     ports:
       - '5432:5432'
     volumes: 
