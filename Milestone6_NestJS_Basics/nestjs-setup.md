@@ -29,10 +29,13 @@ Workflow of main.ts
 -Start listening for incoming requests.
 
 ## What is the role of AppModule in the project?
+The AppModule serves as the central hub where all modules required by the application are registered. It plays a crucial role in structuring the application by managing modules, controllers, and services, ensuring scalability and maintainability. Additionally, AppModule is often used for global configurations, such as setting up middleware, validation, and third-party integrations, making it a key component in initializing and organizing the NestJS application.
 
 ## How does NestJS structure help with scalability?
 
+The framework is built with a modular architecture, allowing developers to divide their applications into modules. Each module encapsulates related components, controllers, and services, promoting a clear separation of concerns and making the codebase more manageable and scalable.
 
+source: https://curatepartners.com/blogs/skills-tools-platforms/nestjs-building-scalable-and-maintainable-server-side-applications-with-typescript/#:~:text=The%20framework%20is%20built%20with,codebase%20more%20manageable%20and%20scalable.
 
 
 ![npm run start screenshot](image.png)
